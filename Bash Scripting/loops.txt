@@ -1,0 +1,22 @@
+# Creating Bash Scripts 
+bash es el shell mas utilizado de linux, bash es el lenguaje de scripting. 
+ps = enumera todos los procesos en ejecución actuales. 
+free = muestra la cantidad de memoria libre. 
+uptime = indica cuanto tiempo ha estado encendido el equipo. 
+# se puede crear un script bash que contenga todos esos comandos. 
+
+
+example = hello 
+echo $example
+
+#While loops in bash Scripts. 
+n=1 
+while [$n -le 5 ]; do
+    echo 'Iteration number $n'
+    ((n+1))
+done 
+
+# for loops 
+for fruit in peach orange apple; do 
+    echo 'I like $fruit'
+done 

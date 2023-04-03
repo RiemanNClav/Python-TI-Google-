@@ -1,0 +1,11 @@
+¿Que es una variable de entorno?
+Nuestro sistema operativo tiene algunas variables de configuración, valores almacenados en variables de entorno, 
+valores de info del sistema, del shell, de configuración importante para el correcto funcionamiento del equipo,
+la ubicación de los binarios.
+
+Una variable es 'SHELL' del sistema, que es el programa que 
+interpreta los comandos y nos arroja una respuesta. 
+* 'HOME':ruta hacia la carpeta home del computador, cambia dependiendo del equipo. 
+* 'LANG': lenguaje de configuración del equipo. 
+* 'PATH': apunta a las carpetas donde estan apuntados los binarios. 
+
